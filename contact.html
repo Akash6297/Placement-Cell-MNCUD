@@ -7,6 +7,8 @@
     <title>Placement CELL</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
@@ -21,33 +23,34 @@
     <link rel="stylesheet" href="assets/css/simple-footer.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navigation-clean navbar-inverse navbar-fixed-top navbar-light" style="color: var(--bs-primary-text-emphasis);--bs-dark: #0080ff;--bs-dark-rgb: 0,128,255;--bs-body-bg: #ffadad;background: rgb(18,18,55);">
         <div class="container">
             <div><a class="navbar-brand" style="padding:0px;margin-left:0px;height:78px;" href="index.html"> <img class="img-fluid" src="assets/img/Logo.webp" width="116" height="116" style="width: 80.662px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
-            <div class="collapse navbar-collapse" id="navcol-1">
+            <div class="collapse navbar-collapse" id="navcol-1" style="color: rgb(5, 44, 101);">
                 <ul class="navbar-nav ms-auto" style="margin-top:13px;">
                     <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="index.html">Home </a></li>
                     <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="internship.html">internship</a></li>
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" href="#">Ongoing opportunities</a>
+                        <div class="dropdown-menu show" data-bs-popper="none" style="color: var(--swiper-theme-color);background: var(--swiper-theme-color);"><a class="dropdown-item" href="#" style="color: var(--bs-dark-text-emphasis);">Placements</a><a class="dropdown-item" href="internship.html" style="border-color: var(--bs-dark-text-emphasis);color: var(--bs-dark-text-emphasis);">Internships</a></div>
+                    </li>
                     <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="contact.html">contact</a></li>
-                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:50" href="login.html">login</a></li>
-                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="signup.html">sign-up</a></li>
+                    <li class="nav-item"><a class="nav-link" uk-scroll="offset:100" href="signup.html">ReGISTRATION</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <section class="position-relative py-4 py-xl-5">
-        <div class="container position-relative">
+        <div class="container position-relative" style="--bs-body-color: var(--bs-dark);">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2 style="color: rgb(0,0,0);">Contact us</h2>
-                    <p class="w-lg-50" style="color: rgb(0,0,0);">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center" style="--bs-body-color: var(--bs-dark);">
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="d-flex flex-column justify-content-center align-items-start h-100">
                         <div class="d-flex align-items-center p-3">
@@ -79,12 +82,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div>
-                        <form class="p-3 p-xl-4" method="post">
-                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name" style="color: var(--bs-dark);"></div>
+                <div class="col-md-6 col-lg-5 col-xl-4" style="--bs-body-color: var(--bs-dark);">
+                    <div style="--bs-body-color: var(--bs-dark);">
+                        <form class="p-3 p-xl-4" method="post" style="--bs-body-color: var(--bs-dark);border-color: var(--bs-dark);color: var(--bs-dark);">
+                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name" style="color: var(--bs-dark);--bs-body-color: var(--bs-dark);"></div>
                             <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email" style="color: var(--bs-dark);"></div>
-                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message" style="color: var(--bs-dark);--bs-body-color: var(--bs-dark);"></textarea></div>
+                            <div class="mb-3" style="--bs-body-color: var(--bs-dark);"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message" style="color: var(--bs-dark);--bs-body-color: var(--bs-dark);"></textarea></div>
                             <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
                         </form>
                     </div>
@@ -95,14 +98,14 @@
     <footer id="myFooter-1">
         <footer class="text-white bg-dark"></footer>
     </footer>
-    <footer id="myFooter">
+    <footer id="myFooter" style="--bs-body-bg: var(--swiper-theme-color);background: var(--swiper-theme-color);">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-12 col-sm-6 col-md-3">
                     <h1 class="logo" style="margin-top:30px;"></h1><img class="img-fluid" src="assets/img/Logo.webp" width="95" height="95">
                 </div>
                 <div class="col-12 col-sm-6 col-md-2">
-                    <h5>Get started</h5>
+                    <h5>Quick Links</h5>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
@@ -137,8 +140,9 @@
             <div class="footer-2">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6 col-xl-7"><a href="https://akash6297.github.io/Akash-Mandal/">Design and Developed by - AKASH AMANDAL</a>
-                            <p class="text-end" style="margin-top:5%;margin-bottom:8%%;font-size:1em;">Copywrite @ 2023 || All Writes Reserved&nbsp;</p>
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-11"><a href="https://akash6297.github.io/Akash-Mandal/">Design and Developed by - AKASH MANDAL</a></div>
+                        <div class="col">
+                            <p class="text-end" style="margin-top: 5%;margin-bottom: 8%%;font-size: 1em;margin-right: 407px;padding-right: 88px;">Copywrite @ 2023 || All Writes Reserved&nbsp;</p>
                         </div>
                     </div>
                 </div>
